@@ -1,0 +1,21 @@
+# --- Python 垃圾文件 ---
+__pycache__/
+*.py[cod]
+*.class
+
+# --- 环境变量与密钥 (严禁上传!) ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Mac 系统垃圾文件 ---
+.DS_Store
+
+# --- IDE 配置文件 ---
+.idea/
+.vscode/
+*.swp
