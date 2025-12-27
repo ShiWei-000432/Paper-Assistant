@@ -26,3 +26,30 @@
 2. 使用 `cd` 命令进入到项目文件夹路径。例如：
    ```bash
    cd D:\我的项目\Paper-Assistant
+⚙️ 关键配置说明 (必看！)
+本系统支持多种 API 连接方式。由于您使用的是 API Free (ChatAnywhere)，请务必按照以下步骤设置，否则无法使用。
+
+在网页左侧侧边栏进行如下填写：
+API Key:
+
+输入你申请到的免费 Key (通常以 sk- 开头)。
+
+还没有 Key？请参考 GPT_API_free 项目 获取。
+
+API Base URL (非常重要 ⚠️):
+
+不要使用默认的 https://api.openai.com/v1。
+
+必须修改为：
+
+[https://api.chatanywhere.tech/v1](https://api.chatanywhere.tech/v1)
+说明：这是 API Free 提供的国内直连转发地址，不需要开代理即可使用。
+
+使用流程：
+填写 Key 和 URL。
+
+点击 "Browse files" 上传你的 PDF 参考文献。
+
+点击 "构建知识库" 按钮，等待进度条走完。
+
+在右侧输入框写下你的想法，点击 "开始生成"。
